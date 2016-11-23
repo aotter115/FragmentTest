@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:adroid="http://schemas.android.com/apk/res/android"
+    adroid:layout_width="match_parent"
+    adroid:layout_height="match_parent">
+
+    <fragment
+        adroid:id="@+id/left_fragment"
+        adroid:name="com.devor.aotter.fragmenttest.LeftFargment"
+        adroid:layout_width="0dp"
+        adroid:layout_height="match_parent"
+        adroid:layout_weight="1"/>
+
+
+    <fragment
+        adroid:id="@+id/right_fragment"
+        adroid:name="com.devor.aotter.fragmenttest.RightFragment"
+        adroid:layout_width="0dp"
+        adroid:layout_height="match_parent"
+        adroid:layout_weight="1"/>
+
+</LinearLayout>
